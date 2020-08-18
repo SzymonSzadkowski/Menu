@@ -32,8 +32,35 @@ body{
     background-color: darksalmon;
     width: 100px;
     border-radius: 1rem;
-    margin: 0 auto 20px auto;
+    margin: 0 auto 15px auto;
 }
+
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px auto;
+}
+
+.btn-category{
+    padding: 5px 10px;
+    text-transform: capitalize;
+    margin: 0 10px;
+    font-size: 0.8em;
+    background-color: transparent;
+    color: darksalmon;
+    border-radius: 0.5rem;
+    border: 2px solid darksalmon;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 1px 1px 10px 1px darksalmon;
+    transition: all 0.2s ease-in;
+}
+
+.btn-category:hover{
+    background-color: darksalmon;
+    color: white;
+}
+
 .products{
     display: flex;
     flex-wrap: wrap;
