@@ -1,3 +1,3 @@
 Menu
 
-Here is the first version of menu app. I will add buttons to filter food by categories.
+Here is the second version of menu app. I added buttons to categorize menu. Right now it's working just fine
